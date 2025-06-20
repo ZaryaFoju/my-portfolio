@@ -2,6 +2,11 @@
     /* Colors */
     --color-primary: #2586d5;
     --color-primary-dark: #208c61;
+    --color-primary-green: #869363;
+    --color-primary-green-light: #bee09f;
+    --color-primary-gray-light: #A7C1A8;
+    --color-primary-gray-dark: #819A91;
+    --color-primary-yellow: #EEEFE0;
     --color-bg-primary: #c1c3c4;
     --color-bg-secondary: #242424;
     --color-bg-footer: #151515;
@@ -10,7 +15,7 @@
     --color-border: #373737;
 
     /* Font & Topography */
-    --ff-body: "Space Grotesk", sans-serif;
+    --ff-body: "Space Mono", sans-serif;
     /* font sizes */
     --fs-sm: 1.4rem;
     --fs-md: 1.6rem;
@@ -50,7 +55,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: var(--color-white);
+  color: var(--color-primary-green);
   font-weight: var(--fw-bold);
 }
 
@@ -199,7 +204,7 @@ body {
 .nav__brand {
   font-size: var(--fs-lg);
   font-weight: var(--fw-bold);
-  color: var(--color-primary);
+  color: var(--color-primary-green);
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
@@ -288,7 +293,7 @@ body {
 .hero__title::after {
   position: absolute;
   content: "";
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-green);
   width: 10rem;
   height: 0.5rem;
   bottom: -2rem;
@@ -312,7 +317,7 @@ body {
 .hero__info-number {
   font-size: var(--fs-xxl);
   font-weight: var(--fw-bold);
-  color: var(--color-white);
+  color: var(--color-primary-green);
   margin-bottom: 1rem;
 }
 
