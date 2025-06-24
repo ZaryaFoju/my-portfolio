@@ -499,6 +499,7 @@ body {
   max-width: 30rem;
   justify-self: center;
   transition: var(--transition);
+  
 }
 
 .values__card:hover {
