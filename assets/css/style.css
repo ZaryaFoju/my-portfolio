@@ -135,7 +135,7 @@ body {
   content: "";
   width: 50%;
   height: 0.5rem;
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-green);
   bottom: -1.5rem;
   left: 50%;
   transform: translateX(-50%);
@@ -387,59 +387,6 @@ body {
   color: var(--color-primary);
 }
 
-/* About
---------------------------------------------------------------*/
-.about__content {
-  max-width: 50rem;
-  margin: auto;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.about__title {
-  font-size: var(--fs-xxl);
-  margin-bottom: 3rem;
-}
-
-.about__description {
-  margin-bottom: 3rem;
-}
-
-.skills {
-  justify-self: center;
-}
-
-.skills__title {
-  font-size: var(--fs-lg);
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.skills__wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.skills__content {
-  background-color: var(--color-bg-secondary);
-  box-shadow: var(--box-shadow);
-  padding: 3rem;
-}
-
-.skills__item {
-  margin-bottom: 1rem;
-}
-
-.skills__subtitle {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.skills__item i {
-  color: var(--color-primary);
-}
-
 
 /* Qualification
 --------------------------------------------------------------*/
@@ -523,7 +470,23 @@ body {
   margin-bottom: 3rem;
 }
 
+/* Values Wrapper for Card Alignment */
+.values__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem; /* space between cards */
+  justify-content: center; /* center cards horizontally */
+  align-items: stretch; /* make cards same height if possible */
+}
 
+/* Example usage in HTML: */
+/*
+<div class="values__wrapper">
+  <div class="values__card">...</div>
+  <div class="values__card">...</div>
+  <div class="values__card">...</div>
+</div>
+*/
 
 
 
