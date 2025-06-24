@@ -499,7 +499,8 @@ body {
   max-width: 30rem;
   justify-self: center;
   transition: var(--transition);
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .values__card:hover {
