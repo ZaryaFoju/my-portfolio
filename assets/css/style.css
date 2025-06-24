@@ -503,6 +503,7 @@ body {
   flex-direction: column;
 }
 
+
 .values__card:hover {
   background-color: var(--color-primary);
 }
