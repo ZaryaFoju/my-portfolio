@@ -148,6 +148,7 @@ body {
 
 .btn {
   display: inline-block;
+  border-radius: 10px;
   padding: 1.5rem 4rem;
   color: var(--color-white);
   font-weight: var(--fw-semibold);
@@ -155,7 +156,7 @@ body {
 }
 
 .btn--primary {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-green);
   color: var(--color-white);
 }
 
@@ -384,7 +385,7 @@ body {
 }
 
 .skills__item i {
-  color: var(--color-primary);
+  color: var(--color-primary-green-light);
 }
 
 
